@@ -16,10 +16,10 @@
             android:name=".GmailSender"
             android:exported="false" />
         <activity
-            android:name=".BaseActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".BaseActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
